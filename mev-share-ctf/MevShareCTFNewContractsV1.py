@@ -8,7 +8,6 @@ import json
 from solcx import compile_source, install_solc
 import threading
 
-# rpc_url = "https://goerli.infura.io/v3/9e312d162fe54da08aab66c68e491831"
 rpc_url = "https://ethereum-goerli.publicnode.com"
 sse_url = "https://mev-share-goerli.flashbots.net/"
 relay_url = "https://relay-goerli.flashbots.net/"
