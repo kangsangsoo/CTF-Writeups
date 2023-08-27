@@ -1,0 +1,17 @@
+[package]
+name = "solve"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+solana-program = "1.10.41"
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
+rand = "0.8.5"
+
+[lib]
+crate-type = ["cdylib", "lib"]

@@ -1,0 +1,73 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "se",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "mr",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "e",
+				"type": "address"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "E",
+		"outputs": [
+			{
+				"internalType": "contract Equalizer",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "MR",
+		"outputs": [
+			{
+				"internalType": "contract MusicRemixer",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "SE",
+		"outputs": [
+			{
+				"internalType": "contract SampleEditor",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "attack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	}
+]

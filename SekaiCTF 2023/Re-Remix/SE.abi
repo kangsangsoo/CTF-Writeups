@@ -1,0 +1,122 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "OvO",
+		"type": "error"
+	},
+	{
+		"inputs": [],
+		"name": "QaQ",
+		"type": "error"
+	},
+	{
+		"inputs": [],
+		"name": "adjust",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "project_tempo",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "region_tempo",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_tempo",
+				"type": "uint256"
+			}
+		],
+		"name": "setTempo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "tracks",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "enum SampleEditor.Align",
+						"name": "align",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "flexOn",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct SampleEditor.Settings",
+				"name": "settings",
+				"type": "tuple"
+			},
+			{
+				"internalType": "bytes",
+				"name": "data",
+				"type": "bytes"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "p",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "v",
+				"type": "uint256"
+			}
+		],
+		"name": "updateSettings",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
